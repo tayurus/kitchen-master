@@ -5,7 +5,7 @@
 
 @font-face {
   src: url("fonts/Novecento WideBold.otf") format("truetype");
-  font-family: "Novecentowide - Bold";
+  font-family: "Novecentowide";
 }
 
 @font-face {
@@ -21,9 +21,21 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+}
+
+html {
+  font-size: 10px;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+}
+
+@media (max-width: 850px), (max-device-width: 850px) {
+  html {
+    font-size: 9px;
+  }
 }

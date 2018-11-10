@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link_bold-gray {
+  opacity: 0.6;
+  color: #fff;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.link_site-title {
+  color: #f39c12;
+  font-family: Novecentowide;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -2,8 +2,16 @@ noscript
     p Включите JS, иначе мы вам ничего не гарантируем
     
 header.header
-  .header__content
+  .container-fluid
     nav
-      ul
+      ul.header__nav-ul
         li
-          a.link.link_bold-gray(href="#") 
+          a.link.link_bold-gray.mx-4(href="#") about
+        li
+          a.link.link_bold-gray.mx-5(href="#") classes
+        li(role='site-title')
+          a.link.link_site-title.mx-5(href="#") kitchen-master
+        li
+          a.link.link_bold-gray.mx-5(href="#") gallery
+        li
+          a.link.link_bold-gray.mx-4(href="#") register
