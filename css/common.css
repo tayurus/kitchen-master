@@ -1,8 +1,29 @@
-*{
-    box-sizing: border-box;
+@font-face {
+  src: url("fonts/Lavanderia Sturdy.otf") format("truetype");
+  font-family: "Lavanderia - Sturdy";
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
+@font-face {
+  src: url("fonts/Novecento WideBold.otf") format("truetype");
+  font-family: "Novecentowide - Bold";
+}
+
+@font-face {
+  src: url("fonts/ostrichsansbold.ttf"), url("fonts/ostrichsansbold.woff"),
+    url("fonts/ostrichsansbold.woff2") format("truetype");
+  font-family: "Ostrich Sans";
+}
+@font-face {
+  src: url("fonts/ProximaNova.eot"), url("fonts/ProximaNova.ttf"),
+    url("fonts/ProximaNova.woff") format("truetype");
+  font-family: "Proxima Nova";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
