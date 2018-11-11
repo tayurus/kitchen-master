@@ -18,6 +18,10 @@
     url("fonts/ProximaNova.woff") format("truetype");
   font-family: "Proxima Nova";
 }
+@font-face {
+  src: url("fonts/Neou-Bold.otf"), url("fonts/Neou-Bold.ttf") format("truetype");
+  font-family: "Neou";
+}
 
 * {
   box-sizing: border-box;

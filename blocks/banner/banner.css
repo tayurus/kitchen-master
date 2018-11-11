@@ -1,0 +1,72 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner__title {
+  color: #ffffff;
+  font-family: "Ostrich Sans";
+  font-size: 9.6rem;
+  font-weight: 700;
+}
+
+.banner__label1 {
+  color: #ffffff;
+  font-family: Novecentowide;
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.banner__label2 {
+  color: #ffffff;
+  font-family: "Lavanderia - Sturdy";
+  font-size: 4.2rem;
+  position: relative;
+}
+
+.banner__label2::before {
+  position: absolute;
+  content: "";
+  width: 4.3rem;
+  height: 0.4rem;
+  left: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("img/banner-lines.png") no-repeat center / contain;
+}
+.banner__label2::after {
+  position: absolute;
+  content: "";
+  width: 4.3rem;
+  height: 0.4rem;
+  right: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("img/banner-lines.png") no-repeat center / contain;
+}
+
+.banner__label3 {
+  color: #ffffff;
+  font-family: Novecentowide;
+  font-size: 5.3rem;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.banner__label4 {
+  color: #ffffff;
+  font-family: Neou;
+  font-size: 6.1rem;
+  line-height: 65px;
+}
+
+.banner__label5 {
+  color: #ffffff;
+  font-family: "Ostrich Sans";
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 30px;
+}

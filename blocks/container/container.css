@@ -1,0 +1,7 @@
+.container_bg-gray {
+  background-color: #2a323a;
+}
+
+.container_cutted {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 0% 100%);
+}
