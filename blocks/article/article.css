@@ -1,0 +1,39 @@
+.article {
+  max-width: 70rem;
+}
+
+.article__title {
+  color: #222222;
+  font-family: Neou;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 2.3rem;
+}
+
+.article__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.article.reversed .article__wrapper {
+  flex-direction: row-reverse;
+}
+
+.article__content {
+  margin-right: 1.5rem;
+}
+
+.article.reversed .article__content {
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 767px), (max-device-width: 767px) {
+  .article__wrapper {
+    flex-direction: column !important;
+  }
+
+  .article .text {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -14,8 +14,9 @@
   font-family: "Ostrich Sans";
 }
 @font-face {
-  src: url("fonts/ProximaNova.eot"), url("fonts/ProximaNova.ttf"),
-    url("fonts/ProximaNova.woff") format("truetype");
+  src: url("fonts/ProximaNova-Regular.eot"),
+    url("fonts/ProximaNova-Regular.ttf"),
+    url("fonts/ProximaNova-Regular.woff") format("truetype");
   font-family: "Proxima Nova";
 }
 @font-face {
@@ -36,6 +37,10 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+}
+
+.mt-10 {
+  margin-top: 10rem;
 }
 
 @media (max-width: 850px), (max-device-width: 850px) {
