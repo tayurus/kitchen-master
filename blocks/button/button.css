@@ -1,3 +1,7 @@
-button{
-    outline: none;
+button {
+  outline: none;
+}
+
+.button_success {
+  background: transparent;
 }

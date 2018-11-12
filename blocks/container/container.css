@@ -5,3 +5,22 @@
 .container_cutted {
   clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 0% 100%);
 }
+
+.container_cutted2 {
+  clip-path: polygon(0% 0%, 100% 25%, 100% 100%, 0 75%);
+  max-height: 776px;
+  height: 100vh;
+}
+
+.container__circle {
+  max-height: 600px;
+  height: 83vh;
+  background: #222222;
+  border-radius: 100%;
+  max-width: 720px;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+}
